@@ -12,6 +12,3 @@ You can think of it as "make the remote branch resemble my local branch". This w
 
 To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
 
-Questions on content: 
-What's the point of starting with a fallacy? Let's go with explaining what they do, not dispelling misconceptions. We don't know if this reader has done that.
-What 2 things does git pull do? Seems that should be pull not push, correct? Let's come back to that.
